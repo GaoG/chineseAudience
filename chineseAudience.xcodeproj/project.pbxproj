@@ -17,6 +17,7 @@
 		210D52BE247A63ED00B3A7EA /* StartView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 210D52BC247A63ED00B3A7EA /* StartView.xib */; };
 		210D52C4247A65D700B3A7EA /* AnswerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 210D52C3247A65D700B3A7EA /* AnswerView.m */; };
 		210D52C6247A65EC00B3A7EA /* AnswerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 210D52C5247A65EC00B3A7EA /* AnswerView.xib */; };
+		21164A6A248F042F00A4A61D /* 字魂125号-九州真书.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21164A69248F03B800A4A61D /* 字魂125号-九州真书.ttf */; };
 		2119EA6A247E6A550077FE7A /* MathView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2119EA69247E6A550077FE7A /* MathView.m */; };
 		2119EA6C247E6A630077FE7A /* MathView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2119EA6B247E6A630077FE7A /* MathView.xib */; };
 		218A0F09247C18D3001646A5 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 218A0F07247C18D3001646A5 /* GCDAsyncUdpSocket.m */; };
@@ -44,6 +45,7 @@
 		210D52C2247A65D700B3A7EA /* AnswerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnswerView.h; sourceTree = "<group>"; };
 		210D52C3247A65D700B3A7EA /* AnswerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnswerView.m; sourceTree = "<group>"; };
 		210D52C5247A65EC00B3A7EA /* AnswerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnswerView.xib; sourceTree = "<group>"; };
+		21164A69248F03B800A4A61D /* 字魂125号-九州真书.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "字魂125号-九州真书.ttf"; sourceTree = "<group>"; };
 		2119EA68247E6A550077FE7A /* MathView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MathView.h; sourceTree = "<group>"; };
 		2119EA69247E6A550077FE7A /* MathView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MathView.m; sourceTree = "<group>"; };
 		2119EA6B247E6A630077FE7A /* MathView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MathView.xib; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				210D52AF247A634500B3A7EA /* LaunchScreen.storyboard */,
 				210D52B2247A634500B3A7EA /* Info.plist */,
 				210D52B3247A634500B3A7EA /* main.m */,
+				21164A69248F03B800A4A61D /* 字魂125号-九州真书.ttf */,
 			);
 			path = chineseAudience;
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21164A6A248F042F00A4A61D /* 字魂125号-九州真书.ttf in Resources */,
 				2119EA6C247E6A630077FE7A /* MathView.xib in Resources */,
 				210D52B1247A634500B3A7EA /* LaunchScreen.storyboard in Resources */,
 				218A0F18247CB945001646A5 /* IpConfigView.xib in Resources */,
@@ -418,7 +422,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = AGHRV37FJ5;
+				DEVELOPMENT_TEAM = 96E5N4445H;
 				INFOPLIST_FILE = chineseAudience/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -439,7 +443,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = AGHRV37FJ5;
+				DEVELOPMENT_TEAM = 96E5N4445H;
 				INFOPLIST_FILE = chineseAudience/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (

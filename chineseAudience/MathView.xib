@@ -8,6 +8,11 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="字魂125号-九州真书.ttf">
+            <string>zihun125hao-jiuzhouzhenshu</string>
+        </array>
+    </customFonts>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
@@ -19,24 +24,22 @@
                     <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qbe-Qn-YZ0">
-                    <rect key="frame" x="50" y="50" width="924" height="668"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="400"/>
-                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <rect key="frame" x="50" y="-50" width="924" height="668"/>
+                    <fontDescription key="fontDescription" name="zihun125hao-jiuzhouzhenshu" family="zihun125hao-jiuzhouzhenshu" pointSize="600"/>
+                    <color key="textColor" red="0.51764705882352935" green="0.23529411764705882" blue="0.066666666666666666" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstAttribute="trailing" secondItem="KMg-dc-JRV" secondAttribute="trailing" id="5It-3h-roL"/>
-                <constraint firstItem="Qbe-Qn-YZ0" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="HRX-Dx-xsO"/>
                 <constraint firstAttribute="trailing" secondItem="Qbe-Qn-YZ0" secondAttribute="trailing" constant="50" id="Lzc-x7-Oz9"/>
-                <constraint firstItem="Qbe-Qn-YZ0" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="50" id="PwJ-Iw-mFA"/>
+                <constraint firstItem="Qbe-Qn-YZ0" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="-50" id="PwJ-Iw-mFA"/>
                 <constraint firstItem="KMg-dc-JRV" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ROS-XE-u62"/>
                 <constraint firstAttribute="bottom" secondItem="KMg-dc-JRV" secondAttribute="bottom" id="Zso-xs-lLb"/>
                 <constraint firstItem="Qbe-Qn-YZ0" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="50" id="cvq-u9-i5P"/>
-                <constraint firstAttribute="bottom" secondItem="Qbe-Qn-YZ0" secondAttribute="bottom" constant="50" id="fkW-UL-A4V"/>
+                <constraint firstAttribute="bottom" secondItem="Qbe-Qn-YZ0" secondAttribute="bottom" constant="150" id="fkW-UL-A4V"/>
                 <constraint firstItem="KMg-dc-JRV" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="guc-nr-TFK"/>
-                <constraint firstItem="Qbe-Qn-YZ0" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="jer-Pk-Gx6"/>
             </constraints>
             <connections>
                 <outlet property="numberL" destination="Qbe-Qn-YZ0" id="VgI-QL-yzW"/>

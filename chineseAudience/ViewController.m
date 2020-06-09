@@ -147,7 +147,8 @@
             
         }else if ([receiveStr isEqualToString:@"40"]){
             /// 抢答成功 
-            [self.answerView setAnswerResult:3];
+//            [self.answerView setAnswerResult:3];
+            [self.answerView setStateAcrion:3];
             [self operateView:self.answerView withState:NO];
             
         }else if ([receiveStr isEqualToString:@"50"]){
